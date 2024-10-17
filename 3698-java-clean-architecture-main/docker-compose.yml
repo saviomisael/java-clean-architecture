@@ -1,0 +1,8 @@
+services:
+  postgresql:
+    image: postgres:15
+    network_mode: host
+    environment:
+      POSTGRES_PASSWORD: codechella
+      POSTGRES_DB: codechella_db
+      PGUSER: postgres
